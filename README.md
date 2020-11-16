@@ -22,7 +22,7 @@ This is then visualized in a scatter plot. The output can be found in clustering
 
 ![alt-text](https://github.com/Vandhana-Visaka/Email-Document-Clustering-using-NLP/blob/main/clustering_final.png)
 
-Hierarchial Clustering is also performed using the distances to build a dendogram and visalize it. 
+Hierarchial Clustering is also performed using the distances to build a dendogram and visualize it. 
 This can be found in dendogram_final.png
 
 ![alt-text](https://github.com/Vandhana-Visaka/Email-Document-Clustering-using-NLP/blob/main/dendogram_final.png)

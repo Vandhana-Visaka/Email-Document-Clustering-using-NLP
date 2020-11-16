@@ -15,7 +15,7 @@ The cleaned dataframe is exported as input_email.csv that can be found in this d
 
 The csv is then read, pre-processed further and prepared as features.
 The body of the email messages are clustered using K-means and hierarchial clustering using TF-IDF vectorization.
-K-means clustering is achieved using TF-IDF matrix and cosine similarity is calculated to obatin the euclidean distance of all cluster centers.
+K-means clustering is achieved using TF-IDF matrix and cosine similarity is calculated to obtain the euclidean distance of all cluster centers.
 The proximity of each cluster center to the centroid is used to sort the various coordinates and scale the data points using MDS or Multi-Dimensional Scaling.
 
 This is then visualized in a scatter plot. The output can be found in clustering_final.png

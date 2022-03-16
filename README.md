@@ -17,16 +17,6 @@ The csv is then read, pre-processed further and prepared as features.
 The body of the email messages are clustered using K-means and hierarchial clustering using TF-IDF vectorization.
 K-means clustering is achieved using TF-IDF matrix and cosine similarity is calculated to obtain the euclidean distance of all cluster centers.
 The proximity of each cluster center to the centroid is used to sort the various coordinates and scale the data points using MDS or Multi-Dimensional Scaling.
-
-This is then visualized in a scatter plot. The output can be found in clustering_final.png
-
-![alt-text](https://github.com/Vandhana-Visaka/Email-Document-Clustering-using-NLP/blob/main/clustering_final.png)
-
-Hierarchial Clustering is also performed using the distances to build a dendogram and visualize it. 
-This can be found in dendogram_final.png
-
-![alt-text](https://github.com/Vandhana-Visaka/Email-Document-Clustering-using-NLP/blob/main/dendogram_final.png)
-
 The emails are grouped into 5 clusters.
 
 The topics of each cluster is then analyzed using Latent Dirichlet Allocation (LDA) which can be found in Part 3 - LDA.ipynb.
